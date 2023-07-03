@@ -4,12 +4,15 @@ It downloads all episodes and seasons to a `./downloads` directory.
 
 ## Requirements
 
-* [Nodejs 18](https://nodejs.org/dist/v18.15.0/)
-* [yt-dlp](https://github.com/yt-dlp/yt-dlp/releases/latest)
+* Download [Nodejs 18](https://nodejs.org/en/blog/release/v18.12.0)
+* Download [yt-dlp](https://github.com/yt-dlp/yt-dlp/releases/latest)
 
 ## How to run?
+
+Open terminal and run
 
 ```shell
 node ./index.mjs
 node ./index-extra.mjs
 ```
+The files should be in a `/downloads` folder.
