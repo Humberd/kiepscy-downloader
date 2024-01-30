@@ -17,3 +17,8 @@ node ./index.mjs
 node ./index-extra.mjs
 ```
 The files should be in a `/downloads` folder.
+
+# Docker usage:
+```shell
+docker-compose -f docker-compose.yml up --build
+```
