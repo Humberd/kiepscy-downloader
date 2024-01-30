@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  kiepscy-downloader:
+    container_name: kiepscy-downloader
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    working_dir: /code/
+    command: node ./index.mjs && node ./index-extra.mjs
+    restart: unless-stopped
+    volumes:
+      - .:/code
